@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundColor: {
         "app-black": "#121212",
+        "app-voilet": "#8644F5",
       },
       colors: {
         voilet1: "#8644F5",
@@ -27,4 +28,3 @@ module.exports = {
   },
   plugins: [],
 }
-
