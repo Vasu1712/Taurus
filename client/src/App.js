@@ -1,15 +1,75 @@
 import './App.css';
-import './output.css'
+import './output.css';
+import './output.css';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Navbar from './routes/Navbar';
+import Home from './routes/Home';
+import Pricing from './routes/Pricing';
+import Company from './routes/Company';
+import FAQ from './routes/FAQ';
+import Contact from './routes/Contact';
+import { useCookies } from 'react-cookie';
 
 function App() {
-  return (
-    <div className="bg-app-voilet text-voilet1">
-      hellooo
-      <div className='bg-black'>
-        hello
-      </div>
-    </div>
-  );
+	const [cookie] = useCookies(['token']);
+
+	return (
+		<div className='w-screen h-screen font-poppins '>
+			<BrowserRouter>
+				{cookie.token && cookie.token !== undefined ? (
+					<Routes>
+						{/* <Route
+							path='/home'
+							element={cookie.access === 'admin' ? (<HRjobs />) : <Jobs />}
+						/> */}
+						<Route
+							path='/home'
+							element=<Pricing />
+						/>
+						<Route
+							path='/company'
+							element=<Company />
+						/>
+						<Route
+							path='/faq'
+							element=<FAQ />
+						/>
+						<Route
+							path='/help'
+							element=<Contact />
+						/>
+						<Route
+							path='*'
+							element=<Home />
+						/>
+					</Routes>
+				) : (
+					<Routes>
+						<Route
+							path='/home'
+							element=<Pricing />
+						/>
+						<Route
+							path='/company'
+							element=<Company />
+						/>
+						<Route
+							path='/faq'
+							element=<FAQ />
+						/>
+						<Route
+							path='/help'
+							element=<Contact />
+						/>
+						<Route
+							path='*'
+							element=<Home />
+						/>
+					</Routes>
+				)}
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

@@ -16,10 +16,14 @@ module.exports = {
       backgroundColor: {
         "app-black": "#121212",
         "app-voilet": "#8644F5",
+        "app-blue": "#080129",
       },
       colors: {
-        voilet1: "#8644F5",
-        baseblue: "#080129",
+        'voilet1': "#9d79fc",
+        'voilet2': "#8140F3",
+        'lavender': "#E9D9FC",
+        'lightpurple': "#D6BDFF",
+
       }
     },
   },
