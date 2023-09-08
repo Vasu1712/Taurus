@@ -25,7 +25,10 @@ module.exports = {
         'lavender': "#E9D9FC",
         'lightpurple': "#D6BDFF",
         'purple1': "#8644F5",
-
+        'card1': "#E9D9FC",
+        'card2': "#E4F6FF",
+        'card3': "#E6FFD7",
+        'gray1': "#6B6677",
       }
     },
   },
