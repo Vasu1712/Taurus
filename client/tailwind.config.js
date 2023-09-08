@@ -11,7 +11,8 @@ module.exports = {
       },
       height: {
         "1/10": "10%",
-        "9/10": "90%"
+        "9/10": "90%",
+        "1024": "1024px",
       },
       backgroundColor: {
         "app-black": "#121212",
@@ -23,6 +24,7 @@ module.exports = {
         'voilet2': "#8140F3",
         'lavender': "#E9D9FC",
         'lightpurple': "#D6BDFF",
+        'purple1': "#8644F5",
 
       }
     },
