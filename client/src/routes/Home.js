@@ -7,6 +7,7 @@ import Page2 from './Page2';
 import Page3 from './Page3';
 import Testimonials from './Testimonial';
 import Integration from './Integration';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Page3/>
             <Testimonials/>
             <Integration/>
+            <Footer/>
         </div>
     )
 };

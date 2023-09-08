@@ -21,14 +21,12 @@ const Intro = () => {
                     <div className='h-2/3 flex items-center justify-center rounded-full bg-gradient-to-b from-purple-600 to-purple-800 py-3 px-5 mt-6 '>
                         <Link to="/login">
                             Get Started
-                        </Link>
-                        
+                        </Link>     
                     </div>
                     <div className='h-2/3 flex items-center justify-center rounded-full border border-voilet1 text-white py-3 px-5 mt-6 '>
                         <Link to="/login">
                             Learn More
-                        </Link>
-                        
+                        </Link>   
                     </div>
                 </div>    
                 <div className='flex justify-center mt-16'>
