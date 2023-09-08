@@ -4,9 +4,9 @@ import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 const Page3 = () => {
     return (
-        <div className="w-full h-full bg-app-blue">
-            <div className="flex flex-col mt-16">
-                <div className="flex flex-row">
+        <div className="w-full bg-app-blue">
+            <div className="flex flex-col">
+                <div className="flex flex-row mt-72">
                     <div className="w-1/2 m-4 ml-10 p-4">
                         <img src={reports} alt='map' className='opacity-99 mix-blend-screen m-4' />
                     </div>

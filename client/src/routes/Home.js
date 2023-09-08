@@ -5,13 +5,18 @@ import Navbar from './Navbar';
 import Intro from './Intro';
 import Page2 from './Page2';
 import Page3 from './Page3';
+import Testimonials from './Testimonial';
+import Integration from './Integration';
+
 const Home = () => {
     return (
-        <div className="w-full h-full bg-app-blue overflow-auto">
+        <div className="w-full h-full bg-app-blue">
             <Navbar/>
             <Intro/>
             <Page2/>
             <Page3/>
+            <Testimonials/>
+            <Integration/>
         </div>
     )
 };
