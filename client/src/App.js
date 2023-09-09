@@ -8,6 +8,8 @@ import Pricing from './routes/Pricing';
 import Company from './routes/Company';
 import FAQ from './routes/FAQ';
 import Contact from './routes/Contact';
+import Login from './routes/Login.js';
+import Signup from './routes/Signup.js';
 import { useCookies } from 'react-cookie';
 
 function App() {
@@ -18,10 +20,6 @@ function App() {
 			<BrowserRouter>
 				{cookie.token && cookie.token !== undefined ? (
 					<Routes>
-						{/* <Route
-							path='/home'
-							element={cookie.access === 'admin' ? (<HRjobs />) : <Jobs />}
-						/> */}
 						<Route
 							path='/home'
 							element=<Pricing />
@@ -48,6 +46,14 @@ function App() {
 						<Route
 							path='/home'
 							element=<Pricing />
+						/>
+						<Route
+							path='/login'
+							element=<Login />
+						/>
+						<Route
+							path='/signup'
+							element=<Signup />
 						/>
 						<Route
 							path='/company'
