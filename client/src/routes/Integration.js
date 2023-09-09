@@ -27,7 +27,7 @@ const Integration = () => {
             <div class="grid grid-rows-4 grid-flow-col gap-4 p-16">
                 <div class="row-span-4 border border-zinc-700 rounded-2xl p-6">
                     <img src={google}/>
-                    <div className="m-4 mt-12 text-2xl font-semibold">
+                    <div className="m-4 mt-20 text-2xl font-semibold">
                         Google
                     </div>
                     <div className="w-40 m-4 font-thin text-lg text-slate-800">
@@ -58,7 +58,7 @@ const Integration = () => {
                 </div>
                 <div class="row-span-4 border border-zinc-700 rounded-2xl p-6">
                 <img src={slack}/>
-                <div className="m-4 mt-12 text-2xl font-semibold">
+                <div className="m-4 mt-20 text-2xl font-semibold">
                     Slack
                 </div>
                 <div className="w-40 m-4 font-thin text-lg text-slate-800">
@@ -89,7 +89,7 @@ const Integration = () => {
             </div>
             <div class="row-span-4 border border-zinc-700 rounded-2xl p-6">
                 <img src={LinkedIn}/>
-                <div className="m-4 mt-12 text-2xl font-semibold">
+                <div className="m-4 mt-20 text-2xl font-semibold">
                     LinkedIn
                 </div>
                 <div className="w-40 m-4 font-thin text-lg text-slate-800">
