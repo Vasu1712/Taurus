@@ -3,10 +3,10 @@ import { Icon } from '@iconify/react';
 const Testimonials = () => {
     return (
         <div className="w-full h-full bg-lavender text-center">
-            <div className="text-6xl font-bold ">
+            <div className="text-6xl font-bold py-16">
                  Loved by the best
             </div>
-            <div className="grid grid-cols-3 gap-10 m-10 mt-28 ml-16">
+            <div className="grid grid-cols-3 gap-10 m-10 mt-12 ml-16">
                 {/* card */}
                 <div className="flex flex-col border rounded-xl bg-white p-6">
                     <div className="flex flex-row m-4">
