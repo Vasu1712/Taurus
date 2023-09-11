@@ -19,7 +19,7 @@ const Intro = () => {
                 </div>
                 <div className='text-base mt-10 flex flex-row gap-10 text-white tracking-wide font-semibold'>
                     <div className='h-2/3 flex items-center justify-center rounded-full bg-gradient-to-b from-purple-600 to-purple-800 py-3 px-5 mt-6 '>
-                        <Link to="/login">
+                        <Link to="https://taurus-dashboard.vercel.app/">
                             Get Started
                         </Link>     
                     </div>
