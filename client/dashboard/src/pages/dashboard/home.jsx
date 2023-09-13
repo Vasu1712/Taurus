@@ -28,6 +28,8 @@ import {
   ordersOverviewData,
 } from "@/data";
 
+import { Link } from "react-router-dom";
+
 export function Home() {
   return (
     <div className="mt-12">
@@ -107,7 +109,7 @@ export function Home() {
             <table className="w-full min-w-[640px] table-auto">
               <thead>
                 <tr>
-                  {["suggestions", "Price", "Success%", "completion"].map(
+                  {["suggestions", "Price", "Success%", "Promote"].map(
                     (el) => (
                       <th
                         key={el}
@@ -136,7 +138,7 @@ export function Home() {
                     return (
                       <tr key={name}>
                         <td className={className}>
-                          <div className="flex items-center gap-4">
+                          <div className="flex items-center gap-6">
                             <Avatar src={img} alt={name} size="sm" />
                             <Typography
                               variant="small"
@@ -172,19 +174,11 @@ export function Home() {
                           </div>
                         </td>
                         <td className={className}>
-                          {members.map(({ img, name }, key) => (
-                            <Tooltip key={name} content={name}>
-                              <Avatar
-                                src={img}
-                                alt={name}
-                                size="xs"
-                                variant="circular"
-                                className={`cursor-pointer border-2 border-white ${
-                                  key === 0 ? "" : "-ml-2.5"
-                                }`}
-                              />
-                            </Tooltip>
-                          ))}
+                           <Link to="/promote">
+                            <div className="w-1/2 py-1 px-2 pl-4 border border-purple-900 rounded-lg text-purple-900 text-sm content-center hover:bg-purple-900 hover:text-white cursor-pointer	">
+                                Promote
+                            </div>
+                           </Link>
                         </td>
                       </tr>
                     );

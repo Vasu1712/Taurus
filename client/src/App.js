@@ -8,6 +8,7 @@ import Pricing from './routes/Pricing';
 import Company from './routes/Company';
 import FAQ from './routes/FAQ';
 import Contact from './routes/Contact';
+import Promote from './routes/Promote';
 import Login from './routes/Login.js';
 import Signup from './routes/Signup.js';
 import { useCookies } from 'react-cookie';
@@ -35,6 +36,10 @@ function App() {
 						<Route
 							path='/help'
 							element=<Contact />
+						/>
+						<Route
+							path='/promote'
+							element=<Promote />
 						/>
 						<Route
 							path='*'

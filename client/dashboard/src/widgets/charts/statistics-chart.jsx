@@ -12,7 +12,7 @@ export function StatisticsChart({ color, chart, title, description, footer }) {
   return (
     <Card>
       <CardHeader variant="gradient" color={color}>
-        <Chart {...chart} />
+        <Chart type="scatter" {...chart} />
       </CardHeader>
       <CardBody className="p-6">
         <Typography variant="h6" color="blue-gray">

@@ -31,13 +31,13 @@ export const routes = [
       },
       {
         icon: <TableCellsIcon {...icon} />,
-        name: "tables",
+        name: "Metrics",
         path: "/tables",
         element: <Tables />,
       },
       {
         icon: <BellIcon {...icon} />,
-        name: "notifactions",
+        name: "notifications",
         path: "/notifactions",
         element: <Notifications />,
       },
@@ -49,16 +49,16 @@ export const routes = [
     pages: [
       {
         icon: <ArrowRightOnRectangleIcon {...icon} />,
-        name: "sign in",
+        name: "sign out",
         path: "/sign-in",
         element: <SignIn />,
       },
-      {
-        icon: <UserPlusIcon {...icon} />,
-        name: "sign up",
-        path: "/sign-up",
-        element: <SignUp />,
-      },
+      // {
+      //   icon: <UserPlusIcon {...icon} />,
+      //   name: "sign out",
+      //   path: "/sign-out",
+      //   element: <SignUp />,
+      // },
     ],
   },
 ];

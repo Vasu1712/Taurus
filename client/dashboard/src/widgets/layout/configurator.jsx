@@ -65,10 +65,10 @@ export function Configurator() {
       <div className="flex items-start justify-between px-6 pt-8 pb-6">
         <div>
           <Typography variant="h5" color="blue-gray">
-            Dashboard Configurator
+            Settings Panel
           </Typography>
           <Typography className="font-normal text-blue-gray-600">
-            See our dashboard options.
+            Configure Taurus according to you
           </Typography>
         </div>
         <IconButton
@@ -141,33 +141,25 @@ export function Configurator() {
           <hr />
           <div className="my-8 flex flex-col gap-4">
             <a
-              href="https://www.creative-tim.com/product/material-tailwind-dashboard-react?rel=mtdr"
+              href="https://github.com/Vasu1712/Taurus.git"
               target="_black"
             >
               <Button variant="gradient" fullWidth>
-                Free Download
-              </Button>
-            </a>
-            <a
-              href="https://www.material-tailwind.com/docs/react/installation?rel=mtdr"
-              target="_black"
-            >
-              <Button variant="outlined" color="blue-gray" fullWidth>
                 View Documentation
               </Button>
             </a>
             <a
-              href="https://www.material-tailwind.com/blocks/react?rel=mtdr"
+              href="https://taurus6.vercel.app/home"
               target="_black"
             >
               <Button variant="outlined" color="blue-gray" fullWidth>
-                Material Tailwind PRO
+                See Pricing
               </Button>
             </a>
           </div>
           <a
             className="mx-auto flex items-center justify-center gap-2"
-            href="https://github.com/creativetimofficial/material-tailwind-dashboard-react"
+            href="https://github.com/Vasu1712/Taurus.git"
             target="_blank"
             rel="noreferrer"
           >
@@ -201,7 +193,7 @@ export function Configurator() {
         </div>
         <div className="text-center">
           <Typography variant="h6" color="blue-gray">
-            Thank you for sharing ❤️
+            Thank you for Trusting Taurus ❤️
           </Typography>
           <div className="mt-4 flex justify-center gap-2">
             <Button

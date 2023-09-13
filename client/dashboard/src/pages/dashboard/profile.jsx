@@ -33,20 +33,20 @@ export function Profile() {
           <div className="mb-10 flex items-center justify-between gap-6">
             <div className="flex items-center gap-6">
               <Avatar
-                src="/img/bruce-mars.jpeg"
+                src="/img/namaste.png"
                 alt="bruce-mars"
                 size="xl"
-                className="rounded-lg shadow-lg shadow-blue-gray-500/40"
+                className="rounded-full shadow-lg shadow-blue-gray-500/40"
               />
               <div>
                 <Typography variant="h5" color="blue-gray" className="mb-1">
-                  Richard Davis
+                  Namaste Taste Hub
                 </Typography>
                 <Typography
                   variant="small"
                   className="font-normal text-blue-gray-600"
                 >
-                  CEO / Co-Founder
+                  Cloud Kitchen Restaurant at <span className="text-blue-500">Dwarka, Delhi</span>
                 </Typography>
               </div>
             </div>
@@ -98,11 +98,11 @@ export function Profile() {
               </div>
             </div>
             <ProfileInfoCard
-              title="Profile Information"
+              title="Client Description"
               description="Hi, I'm Alec Thompson, Decisions: If you can't decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
               details={{
-                "first name": "Alec M. Thompson",
-                mobile: "(44) 123 1234 123",
+                "first name": "Billu Barber",
+                mobile: "(+91) 8913 194 123",
                 email: "alecthompson@mail.com",
                 location: "USA",
                 social: (
