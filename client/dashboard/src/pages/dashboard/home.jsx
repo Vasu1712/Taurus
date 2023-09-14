@@ -28,6 +28,7 @@ import {
   ordersOverviewData,
 } from "@/data";
 
+// import Promote from "../../../../src/routes/Promote"
 import { Link } from "react-router-dom";
 
 export function Home() {
@@ -174,8 +175,8 @@ export function Home() {
                           </div>
                         </td>
                         <td className={className}>
-                           <Link to="/promote">
-                            <div className="w-1/2 py-1 px-2 pl-4 border border-purple-900 rounded-lg text-purple-900 text-sm content-center hover:bg-purple-900 hover:text-white cursor-pointer	">
+                           <Link to="/">
+                            <div className="w-1/2 py-1 px-2 pl-2 border border-purple-900 rounded-lg text-purple-900 text-sm content-center hover:bg-purple-900 hover:text-white cursor-pointer	">
                                 Promote
                             </div>
                            </Link>

@@ -3,7 +3,7 @@ import mock from '../assets/images/mock.png';
 import { Link } from "react-router-dom";
 import Navbar from './Navbar';
 
-const Intro = () => {
+const Promote = () => {
     return (
             <div className='content-between flex flex-col items-center justify-center mt-14'>
                 <div className='text-center text-white text-5xl mt-10'>
@@ -13,4 +13,4 @@ const Intro = () => {
     )
 };
 
-export default Intro;
+export default Promote;
