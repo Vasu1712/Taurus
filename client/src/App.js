@@ -22,7 +22,7 @@ function App() {
 				{cookie.token && cookie.token !== undefined ? (
 					<Routes>
 						<Route
-							path='/home'
+							path='/pricing'
 							element=<Pricing />
 						/>
 						<Route
@@ -49,7 +49,7 @@ function App() {
 				) : (
 					<Routes>
 						<Route
-							path='/home'
+							path='/pricing'
 							element=<Pricing />
 						/>
 						<Route
