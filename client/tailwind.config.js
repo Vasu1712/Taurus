@@ -18,6 +18,7 @@ module.exports = {
         "app-black": "#121212",
         "app-voilet": "#8644F5",
         "app-blue": "#080129",
+        "blackrussian": "#111827"
       },
       colors: {
         'voilet1': "#9d79fc",
@@ -29,6 +30,8 @@ module.exports = {
         'card2': "#E4F6FF",
         'card3': "#E6FFD7",
         'gray1': "#6B6677",
+        'blueberry': "#6366F1",
+        'offwhite': "#D1D5DB",
       }
     },
   },
