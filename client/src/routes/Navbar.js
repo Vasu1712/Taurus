@@ -12,7 +12,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className='text-white text-xl mt-3'>
-                    <Link to={"/home"} className='pr-10 text-color6 active:text-voilet2'>Pricing</Link>
+                    <Link to={"/pricing"} className='pr-10 text-color6 active:text-voilet2'>Pricing</Link>
                     <Link to={"/company"} className='pr-10 text-color6 active:text-white'>Company</Link>
                     <Link to={"/faq"} className='pr-10 text-color6 active:text-white'>FAQ</Link>
                     <Link to={"/contact"} className='text-color6 active:text-white'>Contact</Link>
