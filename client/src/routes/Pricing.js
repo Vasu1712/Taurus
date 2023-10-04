@@ -59,10 +59,18 @@ export default function PricingTable() {
   const [isAnnual, setIsAnnual] = useState(true)
 
   return (
-    <div className="bg-app-blue h-100vh py-10">
+    <div className="bg-app-blue h-100vh py-8">
+      <div className="font-medium text-base tracking-wide text-lavender text-base ml-20 mt-6">
+        <Link to="/home" className="flex flex-row"> 
+        <Icon icon="mingcute:arrow-left-fill" className="mt-1 text-lg font-bold"/>
+        <span className="ml-2">
+        Take me back
+        </span>
+        </Link>
+      </div>
       {/* Pricing toggle */}
       <div className="bg-app-blue">
-         <div className="content-between pt-20 flex flex-col items-center justify-center font-semibold text-indigo-600 text-base">
+         <div className="content-between pt-20 flex flex-col items-center justify-center font-semibold text-indigo-400 text-base">
             Taurus
          </div>
          <div className="content-between flex flex-col items-center justify-center mt-2 text-6xl text-white font-bold">
@@ -130,7 +138,7 @@ export default function PricingTable() {
         />
 
         {/* Pricing tab 2 */}
-        <PricingTab
+        <PricingTab 
           yearly={isAnnual}
           popular={true}
           planName="Basic"
