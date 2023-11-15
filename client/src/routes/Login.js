@@ -23,7 +23,7 @@ const LoginComponent = () => {
             date.setDate(date.getDate() + 5);
             setCookie('token', token, { path: '/', expires: date });
             setCookie('username', response.username, { path: '/', expires: date });
-            setCookie('access', response.access, { path: '/', expires: date });
+            // setCookie('access', response.access, { path: '/', expires: date });
             setAlertType('success');
             setAlertMessage('Logged in Successfully!');
             navigate('/home');

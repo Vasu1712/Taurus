@@ -35,7 +35,7 @@ function App() {
 							element=<FAQ />
 						/>
 						<Route
-							path='/contact'
+							path='/dashboard'
 							element=<Dashboard />
 						/>
 						<Route
@@ -71,7 +71,7 @@ function App() {
 						/>
 						<Route
 							path='/contact'
-							element=<Dashboard />
+							element=<Contact />
 						/>
 						<Route
 							path='*'
