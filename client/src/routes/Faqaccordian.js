@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Accordion = () => {
   return (
-    <section className="relative z-20 overflow-hidden pt-20 bg-dark">
+    <section className="relative z-20 overflow-auto pt-20 bg-dark">
       <div className="container mx-auto">
         <div className="mx-4 flex flex-wrap">
           <div className="w-full px-4">
