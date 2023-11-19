@@ -71,7 +71,7 @@ function App() {
 						/>
 						<Route
 							path='/contact'
-							element=<Contact />
+							element=<Dashboard />
 						/>
 						<Route
 							path='*'

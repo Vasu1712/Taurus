@@ -15,30 +15,25 @@ const Page3 = () => {
                             A nice & simple statistical overview 
                         </div>
                         <div className="w-2/3 m-4 mt-10 text-thin text-lg italic text-lavender">
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum  Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum  
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum  
+                        The platform, through A/B testing, helps minimize risks by allowing users to experiment with different strategies. Furthermore, by analyzing customer journey paths and incentivizing customers, the loyalty of the communities can be promoted to higher levels. Thus, with these functions businesses are better positioned for expansion into new markets. 
                         </div>
                         <div className="m-4 ml-8 mt-10 text-thin text-lg flex flex-col gap-4">
                           <div className="flex flex-row gap-6">
                             <Icon icon="mdi:tick-circle" color="#602EE3" width="40" />
                             <div className="text-white font-medium text-2xl">
-                                Advanced Analytics
+                                Profit ↑
                             </div>
                           </div>
                           <div className="flex flex-row gap-6">
                             <Icon icon="mdi:tick-circle" color="#602EE3" width="40" />
                             <div className="text-white text-2xl">
-                                Advanced Analytics
+                                Cost & Risk ↓ 
                             </div>
                           </div>
                           <div className="flex flex-row gap-6">
                             <Icon icon="mdi:tick-circle" color="#602EE3" width="40" />
                             <div className="text-white text-2xl">
-                                Advanced Analytics
+                               Asset utilisation ↑
                             </div>
                           </div>
                         </div>
@@ -50,14 +45,9 @@ const Page3 = () => {
                           Great overview of your entire sales funnel and leads
                         </div>
                         <div className="w-2/3 m-4 mt-10 text-thin text-lg italic text-lavender">
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum  Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum  
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum  
+                        Taurus enhances strategies, streamlines product promotion, and informs decisions, ultimately driving revenue and catalyzing growth for partner businesses.
                         </div>
-                        <div className='h-12 w-48 m-4 flex items-center justify-center rounded-full border border-voilet1 text-white py-3 px-5 mt-6 '>
+                        <div className='h-12 w-48 m-4 mt-16 flex items-center justify-center rounded-full border border-voilet1 text-white py-3 px-5 mt-6 '>
                             <Link to="/login">
                                 Learn More
                             </Link>    

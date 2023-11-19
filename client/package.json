@@ -1,11 +1,12 @@
 {
-  "name": "spotify_frontend",
+  "name": "taurus_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@cloudinary/react": "^1.11.2",
     "@cloudinary/url-gen": "^1.10.1",
     "@craco/craco": "^7.1.0",
+    "@faker-js/faker": "^8.3.1",
     "@material-tailwind/react": "^2.0.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

@@ -1,3 +1,7 @@
+import promote from '../assets/images/promote.png';
+import analyse from '../assets/images/analyse.png';
+import strategize from '../assets/images/strategize.png';
+
 const Page2 = () => {
     return (
         <div className="w-full h-4/6 bg-white">
@@ -9,7 +13,7 @@ const Page2 = () => {
                 <div className="w-3/5 flex flex-row content-center gap-24">
                     <div className="w-48 flex flex-col">
                         <span className="font-bold text-6xl text-purple-500 text-justify">
-                            98%
+                            96%
                         </span>
                         <span className="italic font-light mt-2">
                             Client's Satisfaction
@@ -25,7 +29,7 @@ const Page2 = () => {
                     </div>
                     <div className="w-48 flex flex-col">
                         <span className="font-bold text-6xl text-purple-500 text-justify">
-                            7.6M
+                            7.6K
                         </span>
                         <span className="italic font-light mt-2">
                             Users Benifitted
@@ -41,42 +45,39 @@ const Page2 = () => {
              </div>
              <div className="flex flex-row mt-20 gap-10 justify-center">
                 <div className="w-1/4 h-72 bg-lavender rounded-2xl flex flex-col">
-                        <div className="m-4 p-4">
-                            Icon
+                        <div className="-m-8">
+                        <img src={promote} alt='promote' className='w-28' />
                         </div>
-                        <span className="m-8 ml-16 font-semibold text-2xl">
-                            Feature 1
+                        <span className="m-8 mt-14 ml-16 font-semibold text-3xl">
+                            Promote
                         </span>
-                        <span className="mt-2 ml-16 text-slate-700 font-light">
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
+                        <span className="ml-16 text-gray-600 font-light">
+                        <p>Intelligent AI Generated Textual and Graphical Content</p>
+                        <p>Announce your offers to everyone with multiple social media domains</p>
                         </span>
                 </div>
                 <div className="w-1/4 h-72 bg-green-200 rounded-2xl flex flex-col">
-                        <div className="m-4 p-4">
-                            Icon
+                        <div className="-m-8 p-4">
+                        <img src={analyse} alt='analyse' className='w-32' />
                         </div>
-                        <span className="m-8 ml-16 font-semibold text-2xl">
-                            Feature 2
+                        <span className="m-8 mt-12 ml-16 font-semibold text-3xl">
+                            Analyze
                         </span>
-                        <span className="mt-2 ml-16 text-slate-700 font-light">
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
+                        <span className=" ml-16 text-gray-600 font-light"> 
+                        <p>Get most important information of your sales with bar and Line</p>
+                        <p>Analyze data with custom queries in natural language</p>
                         </span>
                 </div>
                 <div className="w-1/4 h-72 bg-blue-100 rounded-2xl flex flex-col">
-                        <div className="m-4 p-4">
-                            Icon
+                        <div className="-m-8 p-4">
+                        <img src={strategize} alt='stratigize' className='w-24' />
                         </div>
-                        <span className="m-8 ml-16 font-semibold text-2xl">
-                            Feature 3
+                        <span className="m-8 ml-16 font-semibold text-3xl">
+                            Strategize
                         </span>
-                        <span className="mt-2 ml-16 text-slate-700 font-light">
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
-                            Lorem ipsum lorem ipsum
+                        <span className=" ml-16 text-gray-600 font-light">
+                        <p>Use AI to increase sales and to determine highs and lows of products </p>
+                        <p>  Forecast sales and handpick strategy based on chance of success</p>
                         </span>
                 </div>
              </div>

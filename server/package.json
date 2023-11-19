@@ -1,5 +1,5 @@
 {
-  "name": "spotify_backend",
+  "name": "taurus_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.10.0",
+    "mongoose": "^6.12.3",
     "nodemon": "^3.0.1",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1"

@@ -1,11 +1,17 @@
-import DashboardGraphs from './DashboardGraphs';
+import DashboardGraph1 from './DashboardGraph1';
+import DashboardGraph2 from './DashboardGraph2';
+import DashboardGraph3 from './DashboardGraph3';
 import DashboardNav from './DashboardNav';
 const DashboardDisplay = () => {
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col w-full">
                  <DashboardNav />
-                {/* <DashboardGraphs/> */}
+                 <DashboardGraph1/>
+            <div className="flex flex-row justify-evenly mt-12">
+                <DashboardGraph2/>
+                <DashboardGraph3/>
+            </div>     
         </div>
     );
 }
